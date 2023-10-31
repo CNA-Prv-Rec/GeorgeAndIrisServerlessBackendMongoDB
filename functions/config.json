@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Plantlife_add",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "Plantlife_Todos",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "Plantlife_edit",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "Plantlife_update",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "getGIProductList",
+        "private": false,
+        "run_as_user_id": "6291f053ab988c1b6f5aa945",
+        "disable_arg_logs": true
+    },
+    {
+        "name": "GIUser_Add",
+        "private": false
+    },
+    {
+        "name": "GIUser_Auth2",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "GetMyGiveAds",
+        "private": false,
+        "run_as_user_id": "6291f053ab988c1b6f5aa945",
+        "disable_arg_logs": true
+    },
+    {
+        "name": "AddAd",
+        "private": true
+    }
+]

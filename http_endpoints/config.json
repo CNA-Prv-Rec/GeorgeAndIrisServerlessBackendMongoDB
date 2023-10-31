@@ -1,0 +1,99 @@
+[
+    {
+        "route": "/Plantlife/add",
+        "http_method": "POST",
+        "function_name": "Plantlife_add",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/Plantlife/Todos",
+        "http_method": "GET",
+        "function_name": "Plantlife_Todos",
+        "validation_method": "SECRET_AS_QUERY_PARAM",
+        "secret_name": "blah",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false,
+        "return_type": "EJSON"
+    },
+    {
+        "route": "/Plantlife/edit",
+        "http_method": "GET",
+        "function_name": "Plantlife_edit",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/Plantlife/update",
+        "http_method": "POST",
+        "function_name": "Plantlife_update",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getGIProductList",
+        "http_method": "GET",
+        "function_name": "getGIProductList",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false,
+        "return_type": "JSON"
+    },
+    {
+        "route": "/GIUserAuth",
+        "http_method": "POST",
+        "function_name": "GIUser_Add",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": true,
+        "create_user_on_auth": true,
+        "disabled": false,
+        "return_type": "JSON"
+    },
+    {
+        "route": "/GIUserAuth2",
+        "http_method": "POST",
+        "function_name": "GIUser_Auth2",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false,
+        "return_type": "JSON"
+    },
+    {
+        "route": "/getMyGiveAds",
+        "http_method": "GET",
+        "function_name": "GetMyGiveAds",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": false,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false,
+        "return_type": "JSON"
+    },
+    {
+        "route": "/CreateAd",
+        "http_method": "POST",
+        "function_name": "AddAd",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false,
+        "return_type": "JSON"
+    }
+]

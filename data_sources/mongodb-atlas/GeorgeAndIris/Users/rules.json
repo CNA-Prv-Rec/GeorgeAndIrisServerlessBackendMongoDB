@@ -1,0 +1,15 @@
+{
+    "collection": "Users",
+    "database": "GeorgeAndIris",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "read": true,
+            "write": true,
+            "insert": true,
+            "delete": false,
+            "search": true
+        }
+    ]
+}

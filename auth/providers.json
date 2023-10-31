@@ -1,0 +1,58 @@
+{
+    "api-key": {
+        "name": "api-key",
+        "type": "api-key",
+        "disabled": false
+    },
+    "custom-token": {
+        "name": "custom-token",
+        "type": "custom-token",
+        "config": {
+            "audience": [],
+            "requireAnyAudience": false,
+            "signingAlgorithm": "HS256",
+            "useJWKURI": false
+        },
+        "secret_config": {
+            "signingKeys": [
+                "GmailAuthSecret"
+            ]
+        },
+        "disabled": false
+    },
+    "oauth2-google": {
+        "name": "oauth2-google",
+        "type": "oauth2-google",
+        "config": {
+            "clientId": "718755781357-79sovevfdp7dbui4n1umu5kjhhk2fpus.apps.googleusercontent.com",
+            "openId": true
+        },
+        "secret_config": {
+            "clientSecret": "GmailAuthSecret"
+        },
+        "disabled": false,
+        "metadata_fields": [
+            {
+                "required": false,
+                "name": "first_name"
+            },
+            {
+                "required": false,
+                "name": "last_name"
+            },
+            {
+                "required": false,
+                "name": "email"
+            },
+            {
+                "required": false,
+                "name": "name"
+            }
+        ],
+        "redirect_uris": [
+            "https://www.george-and-iris.co.uk/",
+            "http://localhost:3000",
+            "http://localhost"
+        ]
+    }
+}
